@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab;?>
+<?import javafx.scene.control.TabPane;?>
+<?import javafx.scene.control.ListView;?>
+
+<Tab fx:id="guiaProdutosTab" text="Guia de Produtos" xmlns="http://javafx.com/javafx/8"
+    xmlns:fx="http://javafx.com/fxml"
+    fx:controller="com.productprices.controller.GuiaProdutosController">
+    <ListView fx:id="listaProdutos" />
+</Tab>

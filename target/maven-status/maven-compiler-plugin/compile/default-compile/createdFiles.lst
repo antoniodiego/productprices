@@ -1,0 +1,8 @@
+com\productprices\service\IProdutoService.class
+com\productprices\controller\CadastrarProdutoController.class
+com\productprices\service\ProdutoService.class
+com\productprices\controller\CardProdutoController.class
+com\productprices\model\Categoria.class
+com\productprices\controller\GuiaProdutosController.class
+com\productprices\main\Main.class
+com\productprices\model\Produto.class
