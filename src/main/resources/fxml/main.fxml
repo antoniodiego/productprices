@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
 <AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.productprices.controller.MainController" prefWidth="600" prefHeight="400">
     <children>
-        <VBox spacing="10" alignment="CENTER" padding="20">
+        <VBox spacing="10" alignment="CENTER">
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
             <Label text="Product Prices" style="-fx-font-size: 24px; -fx-font-weight: bold;" />
             <TableView fx:id="productTable" prefHeight="300" prefWidth="560">
                 <columns>

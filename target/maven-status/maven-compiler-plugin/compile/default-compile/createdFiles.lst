@@ -1,3 +1,4 @@
+com\productprices\controller\MainController.class
 com\productprices\service\IProdutoService.class
 com\productprices\controller\CadastrarProdutoController.class
 com\productprices\service\ProdutoService.class
